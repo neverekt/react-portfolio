@@ -1,0 +1,43 @@
+[{
+    "id": "1",
+    "title": "Eco Lookup App",
+    "description": "The first group project on the front end web developement bootcamp was an EPC web app built on top of the opendatacommunities Domestic Energy Performance certificate API. The application itself is built using javascript for easy integration into a webpage. The application leverages the getaddress.io address lookup API which makes it as easy as typing a UK postcode. Then you choose your address from the dropdown menu then click for your results.",
+    "image": "eco-lookup-app.png",
+    "deployedUrl": "https://eco-watch.github.io/ecolookuptool/index.html",
+    "githubUrl": "https://github.com/eco-watch/ecolookuptool"
+  }, {
+    "id": "2",
+    "title": "Team Profile Generator",
+    "description": "This node application will take in information about all members on a software engineering team using a CLI then renders the data in in a HTML webpage that displays summaries for each person.",
+    "image": "team-profile-generator.png",
+    "deployedUrl": "https://github.com/Jack-educational/team-profile-generator",
+    "githubUrl": "https://github.com/Jack-educational/team-profile-generator"
+  }, {
+    "id": "3",
+    "title": "Password generator App",
+    "description": "An application that an employee can use to generate a random password based on criteria they’ve selected by modifying starter code.",
+    "image": "password-app.png",
+    "deployedUrl": "https://jack-educational.github.io/password-generator",
+    "githubUrl": "https://github.com/Jack-educational/password-generator"
+  }, {
+    "id": "4",
+    "title": "Readme Generator",
+    "description": "This application will prompt the user using a series of questions using the inquirer module to build up information on their project for which they want to write a readme and generate a readme file in markdown language.",
+    "image": "readme-app.png",
+    "deployedUrl": "https://github.com/Jack-educational/readme-generator",
+    "githubUrl": "https://github.com/Jack-educational/readme-generator"
+  }, {
+    "id": "5",
+    "title": "Code Refactoring",
+    "description": "The first assignment of the front end developer bootcamp was to refactor the HTML and CSS for a fictional marketing agency. The goal being a codebase that follows accessibility standards and so that their own site is optimized for search engines.",
+    "image": "code-refactor.png",
+    "deployedUrl": "https://neverekt.github.io/frontend-dev/week1/Challenge/starter/",
+    "githubUrl": "https://github.com/neverekt/frontend-dev/tree/main/week1/Challenge"
+  }, {
+    "id": "6",
+    "title": "Weather App",
+    "description": "A weather app built with React that shows the current weather conditions and a five-day forecast for any location in the world.",
+    "image": "weather-app.png",
+    "deployedUrl": "https://jack-educational.github.io/weather-dashboard/",
+    "githubUrl": "https://github.com/Jack-educational/weather-dashboard"
+  }]
