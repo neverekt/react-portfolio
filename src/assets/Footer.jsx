@@ -1,19 +1,18 @@
 const navigation = {
     solutions: [
       { name: 'Web development', href: '/Webdev' },
-      { name: 'Analytics', href: '/Analytics' },
       { name: 'Blockchain', href: '/Web3' },
-      { name: 'Deep learning and AI', href: '#' },
+      { name: 'Deep learning and AI', href: '/AI' },
     ],
     support: [
         { name: 'Testimonials', href: '/Testimonials' },
-        { name: 'Pricing', href: '/Contact' }
+        { name: 'Pricing', href: '/Contact' },
+        { name: 'Contact', href: '/Contact' },
     ],
     company: [
-        { name: 'About', href: '#' },
-        { name: 'Blog', href: '#' },
-        { name: 'Jobs', href: '#' },
-        { name: 'Partners', href: '#' },
+        { name: 'About', href: '/About' },
+        { name: 'Blog', href: '/Blog' },
+        { name: 'Partners', href: '/' },
     ],
     legal: [
         { name: 'Privacy', href: '/privacy' },
