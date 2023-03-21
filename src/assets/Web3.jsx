@@ -5,41 +5,46 @@ import {
     FingerPrintIcon,
     LockClosedIcon,
     ServerIcon,
-  } from '@heroicons/react/20/solid'
+} from '@heroicons/react/20/solid'
   
-  const features = [
+const features = [
+  {
+    name: 'Smart contract design and deployment',
+    description:
+      'We can help you map an existing business asset into its smart contract equivalent, whether it’s an invoicing system, employee expense tracking, or an RFP system. Our experts can get you started with smart contracts even if you have no prior expertise.',
+    icon: CodeBracketIcon,
+  },
     {
-      name: 'Smart contract designed and deployed.',
-      description: 'We can map an existing business asset into its smart contract analog. Whether its an invoicing system, employee expense tracking or an RFP system, we can help you get started with smart contracts.',
-      icon: CodeBracketIcon,
-    },
-    {
-      name: 'Security.',
-      description: 'There are no extra parties involved when something is settled in real-time using a smart contract. This means you can further guard your business processes against future human error.',
+      name: 'Enhanced security',
+      description:
+        'Smart contracts settle transactions and agreements in real-time without any intermediaries, which eliminates the need for extra parties and minimizes the risk of human error. This means you can better safeguard your business processes and data.',
       icon: LockClosedIcon,
     },
     {
-      name: 'Helping in-house automation.',
-      description: 'Streamlining of any internal process through automation can usually be achieved by using a smart contract.',
+      name: 'In-house automation',
+      description:
+        'By automating internal processes with smart contracts, you can streamline your operations and achieve greater efficiency. We can help you identify opportunities to use smart contracts for in-house automation.',
       icon: ArrowPathIcon,
     },
     {
-      name: 'Identity.',
-      description: 'The identity of a counter-party in any agreement or transaction can often be called into question. By using a smart contract equivalent, you can make sure you are 100% certain you are dealing with the right party.',
+      name: 'Identity verification',
+      description:
+        'Smart contracts ensure the identity of the counter-party in any agreement or transaction, eliminating the risk of fraud and identity-related issues. You can be sure you are dealing with the right party 100% of the time.',
       icon: FingerPrintIcon,
     },
     {
-      name: 'Robust solutions.',
-      description: 'Solutions are deployed to be robust. The contracts are permanently deployed to the blockchain and require no further maintenance. This means you can be sure that your business processes will continue to run smoothly.',
+      name: 'Robust solutions',
+      description:
+        'Smart contract solutions are permanently deployed to the blockchain and require no further maintenance. This ensures your business processes run smoothly and seamlessly, while allowing you to focus on growing your business.',
       icon: Cog6ToothIcon,
     },
     {
-      name: 'Integrate with your existing infrastructure.',
-      description: 'Our solutions are intended to not require an entire overhaul of your existing infrastructure, rather the process is a gradual integration.',
+      name: 'Gradual integration with your existing infrastructure',
+      description:
+        'Our smart contract solutions are designed to integrate with your existing infrastructure, ensuring a smooth and gradual transition to using smart contracts. You don’t need to overhaul your existing systems or processes to benefit from smart contracts.',
       icon: ServerIcon,
     },
   ]
-  
 export default function Web3() {
     return (
       <div className="bg-gray-900 py-24 sm:py-32">
@@ -48,10 +53,10 @@ export default function Web3() {
             <h2 className="text-base font-semibold leading-7 text-indigo-400">Coming soon...</h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">No expertise? No problem.</p>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              Regardless of you or your company's existing infrastructure, you will be aware of the potential benefits of deploying
-              alternative workflows that make use of smart contracts to automate certain business processes.
-
-              Have a look at how we will soon be helping businesses like yours transform and prepare for a new paradigm in productivity.
+            Regardless of your company's existing infrastructure, you're likely aware of the potential benefits of
+            deploying alternative workflows that use smart contracts to automate certain business processes. We're
+            excited to help businesses like yours prepare for a new paradigm in productivity. Stay tuned for more
+            updates on our smart contract offerings.
             </p>
           </div>
           <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 text-base leading-7 text-gray-300 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:gap-x-16">
