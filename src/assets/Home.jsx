@@ -11,7 +11,7 @@ const features = [
   {
     name: 'Our Services',
     description:
-      'We provide a range of services, from software development to automation, data processing, and analytics for businesses and individuals. Learn more about what we offer by clicking below.',
+      'We provide a range of solutions, from software development to automation, data processing, and analytics for businesses and individuals. Learn more about what we offer by clicking below.',
     href: '/Services',
     icon: InformationCircleIcon,
   },
@@ -19,7 +19,7 @@ const features = [
     name: 'Modern Solutions',
     description:
       'We offer intelligent, up-to-date solutions that combine the best industry practices with cutting-edge technology. Click here to learn more about our innovative solutions.',
-    href: '/Services',
+    href: '/Solutions',
     icon: AcademicCapIcon,
   },
 ]
