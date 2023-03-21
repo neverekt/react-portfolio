@@ -21,6 +21,7 @@ function App() {
         <Route path="/web3" element={<Web3 />} />
         <Route path="/AI" element={<AI />} />
       </Routes>
+
       <Footer />
     </Router>
   );

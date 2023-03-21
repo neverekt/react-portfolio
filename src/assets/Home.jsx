@@ -1,4 +1,4 @@
-import { CodeBracketIcon, InformationCircleIcon, ArrowPathIcon, CloudArrowUpIcon, LockClosedIcon } from '@heroicons/react/20/solid'
+import { CodeBracketIcon, InformationCircleIcon, AcademicCapIcon } from '@heroicons/react/20/solid'
 
 const features = [
   {
@@ -16,11 +16,11 @@ const features = [
     icon: InformationCircleIcon,
   },
   {
-    name: 'Simple queues',
+    name: 'Modern Solutions ',
     description:
-      'Pellentesque sit elit congue ante nec amet. Dolor aenean curabitur viverra suspendisse iaculis eget. Nec mollis placerat ultricies euismod ut condimentum.',
-    href: '#',
-    icon: ArrowPathIcon,
+      'Offering intelligent and up-to-date solutions combining the best industry practices with tomorrows technology.',
+    href: '/Services',
+    icon: AcademicCapIcon,
   },
 ]
 
