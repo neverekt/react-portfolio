@@ -7,8 +7,8 @@ function ProjectCard({ project }) {
         <li className="col-span-1 flex flex-col rounded-lg bg-white text-center shadow overflow-hidden flex-1">
           <div className="flex flex-1 flex-col p-8">
             <img className="mx-auto h-56 w-56 drop-shadow-2xl rounded-lg object-cover" src={project.image} alt={project.title} />
-            <h3 className="mt-6 text-lg font-medium text-gray-900">{project.name}</h3>
-            <p className="mt-2 text-gray-500 text-sm">{project.title}</p>
+            <h3 className="mt-6 text-lg font-medium text-gray-900">{project.title}</h3>
+           
             <div className="mt-4 flex-1">
               <p className="text-sm text-gray-600">{project.description}</p>
             </div>
