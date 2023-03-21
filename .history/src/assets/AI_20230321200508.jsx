@@ -1,6 +1,6 @@
-import { CloudArrowUpIcon, ArrowPathIcon, ServerIcon } from '@heroicons/react/20/solid';
-import CodeSampleAI from './CodeSampleAI';
-
+import { CloudArrowUpIcon, ArrowPathIcon, ServerIcon } from '@heroicons/react/20/solid'
+import CodeSampleAI from './CodeSampleAI'
+// import CodeSampleAI from './CodeSampleAI'
 
 const features = [
   {
@@ -19,7 +19,7 @@ const features = [
     description: 'We can help you set up a feedback system using new information so your model only gets better with time.',
     icon: ArrowPathIcon,
   },
-];
+]
 
 export default function AI() {
   return (
@@ -46,16 +46,32 @@ export default function AI() {
               </dl>
             </div>
           </div>
-          <div className="lg:pl-8 lg:pt-4">
-            <div className="lg:max-w-lg">
-              <h2 className="text-base font-semibold leading-7 text-indigo-400">Code sample</h2>
-              <div className="mt-6">
-                <CodeSampleAI />
-                </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-);
+          <CodeSampleAI />
+
+
+          
+
+        </div>
+      </div>
+    </div>
+  )
 }
+
+
+        //   <img
+        //     src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+        //     alt="Product screenshot"
+        //     className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-white/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+        //     width={2432}
+        //     height={1442}
+        //   />
+
+        // <CodeSampleAI />
+
+      //   <img
+      //   src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+      //   alt="Product screenshot"
+      //   className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-white/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+      //   width={2432}
+      //   height={1442}
+      // />

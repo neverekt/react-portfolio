@@ -38,3 +38,8 @@ function ProjectCard({ project }) {
 }
 
 export default ProjectCard;
+
+
+
+// const { id } = useParams();
+// const project = projectsData.find(p => p.id === id);

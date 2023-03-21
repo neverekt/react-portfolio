@@ -3,8 +3,8 @@ import { CodeBracketIcon, PaperAirplaneIcon } from '@heroicons/react/20/solid'
 function ProjectCard({ project }) {
   return (
     <div className="col-md-4 mb-4">
-      <div className="relative isolate bg-gray-900 flex flex-col h-full">
-        <li className="col-span-1 flex flex-col rounded-lg bg-white text-center shadow overflow-hidden flex-1">
+      <div className="relative isolate bg-gray-900">
+        <li className="col-span-1 flex flex-col rounded-lg bg-white text-center shadow overflow-hidden">
           <div className="flex flex-1 flex-col p-8">
             <img className="mx-auto h-32 w-32 rounded-full object-cover" src={project.image} alt={project.title} />
             <h3 className="mt-6 text-lg font-medium text-gray-900">{project.name}</h3>
@@ -38,3 +38,7 @@ function ProjectCard({ project }) {
 }
 
 export default ProjectCard;
+
+
+// const { id } = useParams();
+// const project = projectsData.find(p => p.id === id);
