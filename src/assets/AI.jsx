@@ -1,22 +1,21 @@
 import { CloudArrowUpIcon, ArrowPathIcon, ServerIcon } from '@heroicons/react/20/solid';
 import CodeSampleAI from './CodeSampleAI';
 
-
 const features = [
   {
-    name: 'Multiple solutions.',
+    name: 'Unlock the power of AI',
     description:
-      'Whether its an AI-powered chat-bot, content creation or sales material - its time to upscale by leveraging the use of AI to boost your efficiency and productivity.',
+      'From chatbots to content creation and sales materials, our AI solutions can help you achieve unprecedented levels of productivity and efficiency.',
     icon: CloudArrowUpIcon,
   },
   {
-    name: 'Custom models for your use-case.',
-    description: 'We can train custom language models for your specific use-case from a variety of starting formats. You can then query this using an API.',
+    name: 'Tailored to your needs.',
+    description: 'We offer custom AI models that are specifically designed for your unique use case. You can easily integrate these models into your workflow via API.',
     icon: ServerIcon,
   },
   {
-    name: 'Keep your model up-to-date.',
-    description: 'We can help you set up a feedback system using new information so your model only gets better with time.',
+    name: 'Stay ahead of the game.',
+    description: 'Our feedback system ensures that your AI models are always up-to-date and improving over time. With our help, you can stay ahead of the competition and maximize your ROI.',
     icon: ArrowPathIcon,
   },
 ];
@@ -28,10 +27,10 @@ export default function AI() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <h2 className="text-base font-semibold leading-7 text-indigo-400">Output more</h2>
-              <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">A smarter workflow</p>
+            <h2 className="text-base font-semibold leading-7 text-indigo-400">Empower Your Workflow with AI</h2>
+              <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Transform Your Business with Smarter Solutions</p>
               <p className="mt-6 text-lg leading-8 text-gray-300">
-                Offering tailored solutions to help your business level-up with the latest AI technology solutions.
+                Our customized AI solutions can take your business to the next level by streamlining your workflow and boosting productivity. From chatbots to content creation and more, we use the latest AI technology to help you stay ahead of the curve.
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-300 lg:max-w-none">
                 {features.map((feature) => (
