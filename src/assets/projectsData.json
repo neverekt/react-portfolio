@@ -1,7 +1,7 @@
 [{
     "id": "1",
     "title": "Eco Lookup App",
-    "description": "The first group project on the front end web development bootcamp was an EPC web app built on top of the opendatacommunities Domestic Energy Performance certificate API. The application itself is built using javascript for easy integration into a webpage. The application leverages the getaddress.io address lookup API which makes it as easy as typing a UK postcode. Then you choose your address from the dropdown menu then click for your results.",
+    "description": "The EPC web app is built on top of the Open Data Communities Domestic Energy Performance certificate API. It is as easy as typing a UK postcode to search then choose your address from the dropdown menu and click for your results.",
     "image": "./images/eco-lookup-app.png",
     "deployedUrl": "https://eco-watch.github.io/ecolookuptool/index.html",
     "githubUrl": "https://github.com/eco-watch/ecolookuptool"
