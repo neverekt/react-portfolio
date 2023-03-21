@@ -2,23 +2,23 @@ import { CodeBracketIcon, InformationCircleIcon, AcademicCapIcon } from '@heroic
 
 const features = [
   {
-    name: 'Projects',
+    name: 'Recent Projects',
     description:
-      'Click here to see some recent projects we have been involved in the development of. These include various academic exercises by team members and some live creations. Click below to see the gallery.',
+      'Discover some of our most recent projects, including academic exercises by our team members and live creations. Browse our gallery to see our work in action.',
     href: '/Projects',
     icon: CodeBracketIcon,
   },
   {
-    name: 'What we offer',
+    name: 'Our Services',
     description:
-      'We offer a variety of services, including business and domestic software development, websites, hosting, automation, data processing, and various other analytics. Click here to find out more.',
+      'We provide a range of services, from software development to automation, data processing, and analytics for businesses and individuals. Learn more about what we offer by clicking below.',
     href: '/Services',
     icon: InformationCircleIcon,
   },
   {
-    name: 'Modern Solutions ',
+    name: 'Modern Solutions',
     description:
-      'Offering intelligent and up-to-date solutions combining the best industry practices with tomorrows technology.',
+      'We offer intelligent, up-to-date solutions that combine the best industry practices with cutting-edge technology. Click here to learn more about our innovative solutions.',
     href: '/Services',
     icon: AcademicCapIcon,
   },
@@ -34,7 +34,7 @@ export default function Example() {
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-300">
             Welcome to the homepage of Jack Turner, founder of Coupled Logic, the consultancy arm of a software development company based in the UK.
-            To get started, why not explore some of the following options...
+            We invite you to explore some of the following options to learn more about our work and how we can help your business thrive.
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
