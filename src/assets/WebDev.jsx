@@ -1,10 +1,10 @@
 import {
     GlobeAltIcon,
-    BrowserIcon,
+    CodeBracketIcon,
     ServerIcon,
-    DatabaseIcon,
-    DesktopComputerIcon,
-    CogIcon,
+    CircleStackIcon,
+    ComputerDesktopIcon,
+    Cog6ToothIcon,
 } from '@heroicons/react/20/solid'
 
 const features = [
@@ -18,7 +18,7 @@ const features = [
         name: 'Web app development',
         description:
             'We can develop web applications that work seamlessly across different devices and platforms, ensuring a smooth user experience. Whether it’s a single-page application, progressive web app or a complex enterprise application, we can help you create a web app that meets your specific requirements.',
-        icon: BrowserIcon,
+        icon: CodeBracketIcon,
     },
     {
         name: 'Server setup and management',
@@ -30,19 +30,19 @@ const features = [
         name: 'Database management',
         description:
             'We can help you set up and manage your databases, whether it’s a relational database or a NoSQL database. Our experts can ensure your databases are secure, scalable and performant, ensuring your web applications run smoothly.',
-        icon: DatabaseIcon,
+        icon: CircleStackIcon,
     },
     {
         name: 'Desktop application development',
         description:
             'We can develop desktop applications that work seamlessly on different operating systems, ensuring your application is accessible to a wider audience. Our experts can help you create a desktop application that is user-friendly, visually appealing and functional.',
-        icon: DesktopComputerIcon,
+        icon: ComputerDesktopIcon,
     },
     {
         name: 'Redirection setup',
         description:
             'We offer redirection setup services, ensuring that your website or web application is accessible from different domains you might already own. Our experts can help you set up redirects, ensuring a seamless user experience for your visitors.',
-        icon: CogIcon,
+        icon: Cog6ToothIcon,
     },
 ]
 export default function WebDevelopment() {
