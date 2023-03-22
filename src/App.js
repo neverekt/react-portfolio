@@ -8,6 +8,8 @@ import Footer from './assets/Footer';
 import ProjectFull from './assets/ProjectFull';
 import Web3 from './assets/Web3';
 import AI from './assets/AI';
+import About from './assets/About';
+import WebDevelopment from './assets/WebDev';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/web3" element={<Web3 />} />
         <Route path="/AI" element={<AI />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/WebDev" element={<WebDevelopment />} />
       </Routes>
       <Footer />
     </Router>
