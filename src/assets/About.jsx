@@ -1,6 +1,6 @@
 import {
-    HandshakeIcon,
-    LightningBoltIcon,
+    CheckBadgeIcon,
+    BoltIcon,
     UsersIcon,
     HeartIcon,
     GlobeAltIcon,
@@ -11,12 +11,12 @@ const values = [
     {
         name: 'Client satisfaction first',
         description: 'We are dedicated to delivering exceptional service and quality work to ensure our clients are always satisfied.',
-        icon: HandshakeIcon,
+        icon: CheckBadgeIcon,
     },
     {
         name: 'Continuous innovation',
         description: 'We constantly strive to improve our processes and stay ahead of the curve in technology and industry trends.',
-        icon: LightningBoltIcon,
+        icon: BoltIcon,
     },
     {
         name: 'Collaborative teamwork',
