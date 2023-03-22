@@ -1,18 +1,19 @@
 const navigation = {
     solutions: [
       { name: 'Web development', href: '/Webdev' },
+      { name: 'Analytics', href: '/Analytics' },
       { name: 'Blockchain', href: '/Web3' },
-      { name: 'Deep learning and AI', href: '/AI' },
+      { name: 'Deep learning and AI', href: '#' },
     ],
     support: [
         { name: 'Testimonials', href: '/Testimonials' },
-        { name: 'Pricing', href: '/Contact' },
-        { name: 'Contact', href: '/Contact' },
+        { name: 'Pricing', href: '/Contact' }
     ],
     company: [
-        { name: 'About', href: '/About' },
-        { name: 'Blog', href: '/Blog' },
-        { name: 'Partners', href: '/' },
+        { name: 'About', href: '#' },
+        { name: 'Blog', href: '#' },
+        { name: 'Jobs', href: '#' },
+        { name: 'Partners', href: '#' },
     ],
     legal: [
         { name: 'Privacy', href: '/privacy' },
@@ -95,8 +96,8 @@ const navigation = {
             <div className="space-y-8">
               <img
                 className="h-7"
-                src="images/coupled-logic-web-logo-2.png"
-                alt="Coupled Logic"
+                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                alt="Company name"
               />
               <p className="text-sm leading-6 text-gray-300">
                 Ushering a brand new era of business value via decentralized blockchain utilities and AI powered data analytics.
@@ -165,14 +166,12 @@ const navigation = {
               </div>
             </div>
           </div>
-          <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24 flex flex-col items-center">
-            <p className="text-sm text-gray-400 text-center">
-              Coupled Logic is a trading name of JT&CC Limited, a registered company in England and Wales (company number 14021019).
-              <br /> 
-              Registered office address: 7 Bell Yard, London, WC2A 2JR.
-              <br />  
-              &copy; 2023 Jack Turner. All rights reserved.
-            </p>
+          <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
+            <p className="text-xs leading-5 text-gray-400">
+                Coupled Logic is a trading name of JT&CC Limited. A company registered in England and Wales
+                under company number 14021019 and with the registered office address of 7 Bell Yard, London, WC2A 2JR.
+                <br />  
+                &copy; 2023 Jack Turner All rights reserved.</p>
           </div>
         </div>
       </footer>

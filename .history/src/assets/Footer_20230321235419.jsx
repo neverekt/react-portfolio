@@ -95,8 +95,8 @@ const navigation = {
             <div className="space-y-8">
               <img
                 className="h-7"
-                src="images/coupled-logic-web-logo-2.png"
-                alt="Coupled Logic"
+                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                alt="Company name"
               />
               <p className="text-sm leading-6 text-gray-300">
                 Ushering a brand new era of business value via decentralized blockchain utilities and AI powered data analytics.

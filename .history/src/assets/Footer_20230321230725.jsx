@@ -1,18 +1,19 @@
 const navigation = {
     solutions: [
       { name: 'Web development', href: '/Webdev' },
+      { name: 'Analytics', href: '/Analytics' },
       { name: 'Blockchain', href: '/Web3' },
-      { name: 'Deep learning and AI', href: '/AI' },
+      { name: 'Deep learning and AI', href: '#' },
     ],
     support: [
         { name: 'Testimonials', href: '/Testimonials' },
-        { name: 'Pricing', href: '/Contact' },
-        { name: 'Contact', href: '/Contact' },
+        { name: 'Pricing', href: '/Contact' }
     ],
     company: [
-        { name: 'About', href: '/About' },
-        { name: 'Blog', href: '/Blog' },
-        { name: 'Partners', href: '/' },
+        { name: 'About', href: '#' },
+        { name: 'Blog', href: '#' },
+        { name: 'Jobs', href: '#' },
+        { name: 'Partners', href: '#' },
     ],
     legal: [
         { name: 'Privacy', href: '/privacy' },
@@ -95,8 +96,8 @@ const navigation = {
             <div className="space-y-8">
               <img
                 className="h-7"
-                src="images/coupled-logic-web-logo-2.png"
-                alt="Coupled Logic"
+                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                alt="Company name"
               />
               <p className="text-sm leading-6 text-gray-300">
                 Ushering a brand new era of business value via decentralized blockchain utilities and AI powered data analytics.
