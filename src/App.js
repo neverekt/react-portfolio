@@ -11,7 +11,7 @@ import AI from './assets/AI';
 import About from './assets/About';
 import Solutions from './assets/Solutions';
 import FrontEnd from './assets/FrontEnd';
-import BackEnd from './assets/BackEnd'; 
+import BackEnd from './assets/Backend'; 
 
 function App() {
   return (
