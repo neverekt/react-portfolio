@@ -20,7 +20,7 @@ function Contact() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    submissionHandler.handleSubmit(event, formData);
+    submissionHandler(event, formData);
     console.log(formData);
   };
 
@@ -130,7 +130,7 @@ function Contact() {
                   <div className="mt-2.5">
                     <input
                       type="text"
-                      name="first-name"
+                      name="firstName"
                       id="first-name"
                       autoComplete="given-name"
                       value={formData.firstName}
@@ -146,7 +146,7 @@ function Contact() {
                   <div className="mt-2.5">
                     <input
                       type="text"
-                      name="last-name"
+                      name="lastName"
                       id="last-name"
                       autoComplete="family-name"
                       value={formData.lastName}
@@ -178,7 +178,7 @@ function Contact() {
                   <div className="mt-2.5">
                     <input
                       type="tel"
-                      name="phone-number"
+                      name="phoneNumber"
                       id="phone-number"
                       autoComplete="tel"
                       value={formData.phoneNumber}

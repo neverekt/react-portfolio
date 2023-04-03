@@ -1,7 +1,6 @@
 const axios = require('axios');
 
 const submissionHandler = (event, formData) => {
-    event.preventDefault();
     axios.post('/api/contact', formData)
     .then(response => {
         console.log(response.data);
@@ -14,3 +13,4 @@ const submissionHandler = (event, formData) => {
 };
 
 export default submissionHandler;
+
