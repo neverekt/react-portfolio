@@ -4,9 +4,10 @@ import { CodeBracketIcon, Bars3Icon, XMarkIcon } from '@heroicons/react/24/outli
 
 const navigation = [
   { name: 'Home', href: '/' },
-  { name: 'Projects', href: '/projects' },
-  { name: 'Web3', href: '/web3' },
+  { name: 'Solutions', href: '/Solutions' },
+  { name: 'Web', href: '/WebDev' },
   { name: 'AI', href: '/AI'},
+  { name: 'Blockchain', href: '/Blockchain' },
   { name: 'Contact', href: '/contact' },
 ]
 
