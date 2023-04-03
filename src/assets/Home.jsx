@@ -4,7 +4,7 @@ const features = [
   {
     name: 'About us',
     description:
-      'Learn more about our company and our mission to provide top-quality web development and technology solutions to our clients. Visit our About page to get to know us better.',
+      'Learn more about our company and our mission to provide top-quality web development, software and technology solutions to our clients. Visit our About page to get to know us better.',
     href: '/About',
     icon: InformationCircleIcon,
   },
