@@ -1,4 +1,4 @@
-const axios = require('axios');
+import axios from 'axios';
 
 const submissionHandler = (event, formData) => {
     axios.post('/api/contact', formData)
