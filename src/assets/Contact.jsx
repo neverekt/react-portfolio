@@ -20,7 +20,7 @@ function Contact() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    submissionHandler.handleSubmit(event, formData);
+    submissionHandler(event, formData);
     console.log(formData);
   };
 
