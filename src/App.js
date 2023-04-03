@@ -11,12 +11,13 @@ import AI from './assets/AI';
 import About from './assets/About';
 import Solutions from './assets/Solutions';
 import WebDevelopment from './assets/WebDev';
+import Backend from './assets/Backend'; 
 
 function App() {
   return (
     <Router>
       <Header />
-            <Routes>
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<ProjectGallery />} />
         <Route path="/projects/:id" element={<ProjectFull />} />
@@ -26,6 +27,7 @@ function App() {
         <Route path="/About" element={<About />} />
         <Route path="/Solutions" element={<Solutions />} />
         <Route path="/WebDev" element={<WebDevelopment />} />
+        <Route path="/Backend" element={<Backend />} />
       </Routes>
       <Footer />
     </Router>
