@@ -4,12 +4,12 @@ import DatabaseCode from './DatabaseCode';
 const features = [
     {
     name: 'Efficient database integration',
-    description: 'Our team can help you integrate and manage databases for optimal performance, scalability, and security. Whether it’s backend integration or safe user information management, we can provide reliable and scalable solutions tailored to your needs.',
+    description: 'Our team can help you integrate and manage databases for optimal performance, scalability, and security. Whether it’s a relational database, NoSQL database or one requiring safe user information management, we can provide reliable and scalable solutions tailored to your needs.',
     icon: CloudArrowUpIcon,
 },
 {
-    name: 'Streamlined server setup',
-    description: 'Our server setup and redirection services can help you tie together all the elements of your web application for a seamless user experience. We can integrate your website or web app with your existing infrastructure to ensure maximum efficiency.',
+    name: 'Server setup and management',
+    description: 'We offer server setup and management services, ensuring your website or web application is up and running 24/7. Our experts can help you choose the right hosting provider, set up the server and manage it for you, ensuring optimal performance and security.',
     icon: ServerIcon,
 },
 {
