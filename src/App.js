@@ -11,7 +11,7 @@ import AI from './assets/AI';
 import About from './assets/About';
 import Solutions from './assets/Solutions';
 import FrontEnd from './assets/FrontEnd';
-import Backend from './assets/Backend'; 
+import BackEnd from './assets/BackEnd'; 
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
         <Route path="/About" element={<About />} />
         <Route path="/Solutions" element={<Solutions />} />
         <Route path="/FrontEnd" element={<FrontEnd />} />
-        <Route path="/Backend" element={<Backend />} />
+        <Route path="/BackEnd" element={<BackEnd />} />
       </Routes>
       <Footer />
     </Router>
