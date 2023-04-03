@@ -1,6 +1,7 @@
 const navigation = {
     solutions: [
-      { name: 'Web development', href: '/Webdev' },
+      { name: 'Client-side', href: '/FrontEnd' },
+      { name: 'Server-side', href: '/BackEnd' },
       { name: 'Blockchain', href: '/Blockchain' },
       { name: 'Deep learning and AI', href: '/AI' },
     ],
