@@ -6,9 +6,10 @@ import ProjectGallery from './assets/ProjectGallery';
 import Contact from './assets/Contact';
 import Footer from './assets/Footer';
 import ProjectFull from './assets/ProjectFull';
-import Web3 from './assets/Web3';
+import Blockchain from './assets/Blockchain';
 import AI from './assets/AI';
 import About from './assets/About';
+import Solutions from './assets/Solutions';
 import WebDevelopment from './assets/WebDev';
 
 function App() {
@@ -20,9 +21,10 @@ function App() {
         <Route path="/projects" element={<ProjectGallery />} />
         <Route path="/projects/:id" element={<ProjectFull />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/web3" element={<Web3 />} />
+        <Route path="/Blockchain" element={<Blockchain />} />
         <Route path="/AI" element={<AI />} />
         <Route path="/About" element={<About />} />
+        <Route path="/Solutions" element={<Solutions />} />
         <Route path="/WebDev" element={<WebDevelopment />} />
       </Routes>
       <Footer />
