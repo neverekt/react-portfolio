@@ -1,7 +1,7 @@
 import {
     GlobeAltIcon,
     CodeBracketIcon,
-    DatabaseIcon,
+    CircleStackIcon,
     ComputerDesktopIcon,
 } from '@heroicons/react/20/solid'
 
@@ -27,7 +27,7 @@ const features = [
     {
         name: 'Backend integration with databases',
         description: 'We can help you integrate your backend with different types of databases such as relational databases, NoSQL databases and more. Our solutions ensure optimal performance, scalability and security, while providing reliable data management tailored to your specific requirements.',
-        icon: DatabaseIcon,
+        icon: CircleStackIcon,
     },
 
 ]
