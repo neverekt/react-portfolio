@@ -12,7 +12,7 @@ import About from './assets/About';
 import Solutions from './assets/Solutions';
 import FrontEnd from './assets/FrontEnd';
 import BackEnd from './assets/Backend';
-import FAQ from './assets/FAQ';]
+import FAQ from './assets/FAQ';
 
 function App() {
   return (
