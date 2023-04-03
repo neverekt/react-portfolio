@@ -1,7 +1,7 @@
 const navigation = {
     solutions: [
       { name: 'Web development', href: '/Webdev' },
-      { name: 'Blockchain', href: '/Web3' },
+      { name: 'Blockchain', href: '/Blockchain' },
       { name: 'Deep learning and AI', href: '/AI' },
     ],
     support: [
@@ -70,7 +70,7 @@ const navigation = {
       },
       {
         name: 'Google',
-        href: '#',
+        href: '/',
         icon: (props) => (
           <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
             <path
