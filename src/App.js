@@ -10,8 +10,8 @@ import Blockchain from './assets/Blockchain';
 import AI from './assets/AI';
 import About from './assets/About';
 import Solutions from './assets/Solutions';
-import WebDevelopment from './assets/WebDev';
-import Backend from './assets/Backend'; 
+import FrontEnd from './assets/FrontEnd';
+import BackEnd from './assets/BackEnd'; 
 
 function App() {
   return (
@@ -26,8 +26,8 @@ function App() {
         <Route path="/AI" element={<AI />} />
         <Route path="/About" element={<About />} />
         <Route path="/Solutions" element={<Solutions />} />
-        <Route path="/WebDev" element={<WebDevelopment />} />
-        <Route path="/Backend" element={<Backend />} />
+        <Route path="/FrontEnd" element={<FrontEnd />} />
+        <Route path="/BackEnd" element={<BackEnd />} />
       </Routes>
       <Footer />
     </Router>
