@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const submissionHandler = (event, formData) => {
-    axios.post('/api/contact', formData)
+    axios.post('http://localhost:5000/api/contact', formData)
     .then(response => {
         console.log(response.data);
       // Show a success message to the user here
