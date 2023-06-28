@@ -107,11 +107,11 @@ function Contact() {
                 </div>
                 <div className="flex gap-x-4">
                   <dt className="flex-none">
-                    <span className="sr-only">Telephone</span>
+                    <span className="sr-only">E-mail</span>
                     <EnvelopeIcon className="h-7 w-6 text-gray-400" aria-hidden="true" />
                   </dt>
                   <dd>
-                    <a className="hover:text-white" href="mailto:hello@example.com">
+                    <a className="hover:text-white" href="mailto:innovation@coupledlogic.com">
                       innovation@coupledlogic.com
                     </a>
                   </dd>
