@@ -87,7 +87,7 @@ function Contact() {
                     <BuildingOffice2Icon className="h-7 w-6 text-gray-400" aria-hidden="true" />
                   </dt>
                   <dd>
-                    JT&CC Limited.
+                    JT&CC LIMITED.
                     <br />
                     7 Bell Yard,
                     <br />
@@ -101,7 +101,7 @@ function Contact() {
                   </dt>
                   <dd>
                     <a className="hover:text-white" href="tel:+1 (555) 234-5678">
-                      +44 207 456 1414
+                      +44 203 576 3320
                     </a>
                   </dd>
                 </div>
